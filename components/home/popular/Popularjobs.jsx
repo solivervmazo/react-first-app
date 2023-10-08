@@ -18,6 +18,8 @@ const Popularjobs = () => {
     query: "React developer",
     num_pages: 1,
   });
+  const [selectedJob, setSelectedJob] = useState();
+  const handledCardPress = (item) => {};
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -37,6 +39,7 @@ const Popularjobs = () => {
             renderItem={(item) => (
               <PopularJobCard
                 item={item.item}
+                handledCardPress={handledCardPress}
                 keyExtractor={(item) => item?.job_id}
               />
             )}
