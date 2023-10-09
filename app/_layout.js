@@ -17,7 +17,6 @@ const Layout = () => {
     }
   }, [fontsLoaded]);
 
-  console.log(fontsLoaded, fontError);
   if (!fontsLoaded) return null;
   return <Stack onLayout={onLayoutRootView} />;
 };
