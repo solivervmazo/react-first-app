@@ -8,6 +8,21 @@
       "expo-router"
     ],
     "name": "react-first-app",
-    "slug": "react-first-app"
+    "slug": "jobs-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a2c9ab1e-dc4f-48f2-aa6e-f528cda677e7"
+      }
+    },
+    "owner": "solivervmazo",
+    "android": {
+      "package": "com.solivervmazo.jobsapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.solivervmazo.jobsapp"
+    }
   }
 }
